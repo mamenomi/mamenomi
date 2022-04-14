@@ -1,0 +1,232 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "mssql.connections": [
+        {
+            "server": "V0202122",
+            "database": "YNPC-P",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202122_YNPC-P"
+        },
+        {
+            "server": "V0202107",
+            "database": "掲示板",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202107_掲示板"
+        },
+        {
+            "server": "V0202107",
+            "database": "経理部",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202107_経理部"
+        },
+        {
+            "server": "10.2.2.108",
+            "database": "KOJYO",
+            "authenticationType": "SqlLogin",
+            "user": "db18",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202108_db18"
+        },
+        {
+            "server": "10.2.2.108",
+            "database": "KOJYO",
+            "authenticationType": "SqlLogin",
+            "user": "db35",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202108_db35"
+        },
+        {
+            "server": "10.2.2.222",
+            "database": "HONSYA",
+            "authenticationType": "SqlLogin",
+            "user": "db10",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202222_db10"
+        },
+        {
+            "server": "10.2.2.222",
+            "database": "KOJYO",
+            "authenticationType": "SqlLogin",
+            "user": "db13",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202222_db13"
+        },
+        {
+            "server": "V0202105",
+            "database": "HONSYA",
+            "authenticationType": "SqlLogin",
+            "user": "db10",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202105_db10"
+        },
+        {
+            "server": "V0202105\\PORTAL",
+            "database": "PORTALDB",
+            "authenticationType": "SqlLogin",
+            "user": "PORTAL",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202105_PORTAL"
+        },
+        {
+            "server": "V0202105",
+            "database": "HONSYA",
+            "authenticationType": "SqlLogin",
+            "user": "db00",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": false,
+            "profileName": "V0202105_db00"
+        },
+        {
+            "server": "10.2.2.108",
+            "database": "kojyo",
+            "authenticationType": "SqlLogin",
+            "user": "db33",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202108_db33"
+        },
+        {
+            "server": "10.2.2.108",
+            "database": "KOJYO",
+            "authenticationType": "SqlLogin",
+            "user": "db13",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202108_db13"
+        },
+        {
+            "server": "10.2.2.106",
+            "database": "経理部",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "V0202106_経理部"
+        },
+        {
+            "server": "10.2.2.222",
+            "database": "KOJYO",
+            "authenticationType": "SqlLogin",
+            "user": "db18",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": false,
+            "profileName": "V0202222_db18"
+        }
+    ],
+    // https://shibajuku.net/vscode-plugin-settings/ の設定を参考 STR
+    // tabsizeは4に変更
+    "files.autoSave": "onWindowChange",
+    // ファイルのエンコーディングを自動判別する
+    "files.autoGuessEncoding": true,
+    // 保存時にファイル末は改行必須にしたい
+    "files.insertFinalNewline": true,
+    // ファイル末尾の余分な空白行を自動削除
+    "files.trimFinalNewlines": true,
+    // ファイル保存時に行末およびファイル末尾の不要な空白文字を自動的に削除する
+    "files.trimTrailingWhitespace": true,
+    // フォントサイズ
+    "editor.fontSize": 12,
+    // 空白文字を可視化する 空白文字を「･」(ビュレット(bullet)、中点、中黒) に置き換えて表示してくれる
+    // 設定可能な値:
+    // none : スペースを表示しない
+    // all : すべてのスペースを表示する
+    // boundary : 単語間の単一スペースは表示しない
+    "editor.renderWhitespace": "all",
+    // フォント
+    "editor.fontFamily": "'SourceHanCodeJP-Medium', 'Source Han Code JP',  Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 4,
+    "editor.renderLineHighlight": "all",
+    "editor.renderControlCharacters": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.minimap.showSlider": "always",
+    "window.openFoldersInNewWindow": "on",
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.tabSizing": "shrink",
+    // https://shibajuku.net/vscode-plugin-settings/ の設定 END
+    "mssql.enableQueryHistoryCapture": false,
+    // フォントのデフォルト
+    // "editor.fontFamily": "'Ricty Diminished', Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "Visual Studio Light",
+    // Tabキーを押すとspaceが挿入される
+    "editor.insertSpaces": true,
+    "java.home": "C:\\Program Files\\java\\FJ_JDK7",
+    // VSnotesの設定
+    "vsnotes.defaultNotePath": "d:\\work\\memo",
+    "vsnotes.noteTitleConvertSpaces": " ",
+    "vsnotes.defaultNoteTitle": "{dt} {title}.{ext}",
+    //https://blog.chick-p.work/blog/2019/20190528_vsnote-template/    参照
+    "vsnotes.tokens": [
+        {
+            "type": "datetime",
+            "token": "{dt}",
+            // 時間もほしいので変更
+            // "format": "YYYY-MM-DD",
+            "format": "YYYY-MM-DD_HH-mm",
+            "description": "Insert formatted datetime."
+        },
+        {
+            "type": "title",
+            "token": "{title}",
+            "description": "Insert note title from input box.",
+            "format": "Untitled"
+        },
+        {
+            "type": "extension",
+            "token": "{ext}",
+            "description": "Insert file extension.",
+            "format": "md"
+        }
+    ],
+    "vsnotes.templates": [
+        "incoming_memo"
+    ],
+    "vsnotes.defaultSnippet": {
+        "langId": "markdown",
+        "name": "vsnote_template_mydefault"
+    },
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjowLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    "hediet.vscode-drawio.offline": false,
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "compact",
+    "markdown.marp.exportType": "pptx",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\uchida\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "workbench.iconTheme": "material-icon-theme",
+    "maven.executable.path": "C:\\apache-maven-3.6.3\\bin\\mvn.cmd",
+    "maven.terminal.useJavaHome": true
+}
